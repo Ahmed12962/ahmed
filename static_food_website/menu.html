@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>menu</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="header">
+
+   <section class="flex">
+
+      <a href="index.html" class="logo">yum-yum 😋</a>
+
+      <nav class="navbar">
+         <a href="index.html">home</a>
+         <a href="about.html">about</a>
+         <a href="menu.html">menu</a>
+         <a href="contact.html">contact</a>
+      </nav>
+
+      <div class="icons">
+         <a href="search.html"><i class="fas fa-search"></i></a>
+         <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(0)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">please login first!</p>
+         <a href="login.html" class="btn">login</a>
+      </div>
+
+   </section>
+
+</header>
+
+<div class="heading">
+   <h3>our menu</h3>
+   <p><a href="index.html">home</a> <span> / menu</span></p>
+</div>
+
+<section class="products">
+
+   <h1 class="title">all dishes</h1>
+
+   <div class="box-container">
+
+      <!-- Pizza Category -->
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="1">
+         <input type="hidden" name="name" value="Margherita Pizza">
+         <input type="hidden" name="price" value="15.99">
+         <input type="hidden" name="image" value="pizza-1.png">
+         <a href="quick_view.html?pid=1" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/pizza-1.png" alt="">
+         <a href="category.html?category=pizza" class="cat">pizza</a>
+         <div class="name">Margherita Pizza</div>
+         <div class="flex">
+            <div class="price"><span>$</span>15.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="2">
+         <input type="hidden" name="name" value="Pepperoni Pizza">
+         <input type="hidden" name="price" value="17.99">
+         <input type="hidden" name="image" value="pizza-2.png">
+         <a href="quick_view.html?pid=2" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/pizza-2.png" alt="">
+         <a href="category.html?category=pizza" class="cat">pizza</a>
+         <div class="name">Pepperoni Pizza</div>
+         <div class="flex">
+            <div class="price"><span>$</span>17.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="3">
+         <input type="hidden" name="name" value="BBQ Chicken Pizza">
+         <input type="hidden" name="price" value="19.99">
+         <input type="hidden" name="image" value="pizza-3.png">
+         <a href="quick_view.html?pid=3" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/pizza-3.png" alt="">
+         <a href="category.html?category=pizza" class="cat">pizza</a>
+         <div class="name">BBQ Chicken Pizza</div>
+         <div class="flex">
+            <div class="price"><span>$</span>19.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="4">
+         <input type="hidden" name="name" value="Veggie Supreme Pizza">
+         <input type="hidden" name="price" value="16.99">
+         <input type="hidden" name="image" value="pizza-4.png">
+         <a href="quick_view.html?pid=4" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/pizza-4.png" alt="">
+         <a href="category.html?category=pizza" class="cat">pizza</a>
+         <div class="name">Veggie Supreme Pizza</div>
+         <div class="flex">
+            <div class="price"><span>$</span>16.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="5">
+         <input type="hidden" name="name" value="Meat Lovers Pizza">
+         <input type="hidden" name="price" value="21.99">
+         <input type="hidden" name="image" value="pizza-5.png">
+         <a href="quick_view.html?pid=5" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/pizza-5.png" alt="">
+         <a href="category.html?category=pizza" class="cat">pizza</a>
+         <div class="name">Meat Lovers Pizza</div>
+         <div class="flex">
+            <div class="price"><span>$</span>21.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <!-- Burger Category -->
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="6">
+         <input type="hidden" name="name" value="Classic Cheeseburger">
+         <input type="hidden" name="price" value="12.99">
+         <input type="hidden" name="image" value="burger-1.png">
+         <a href="quick_view.html?pid=6" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/burger-1.png" alt="">
+         <a href="category.html?category=burger" class="cat">burger</a>
+         <div class="name">Classic Cheeseburger</div>
+         <div class="flex">
+            <div class="price"><span>$</span>12.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="7">
+         <input type="hidden" name="name" value="Bacon Burger">
+         <input type="hidden" name="price" value="14.99">
+         <input type="hidden" name="image" value="burger-2.png">
+         <a href="quick_view.html?pid=7" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/burger-2.png" alt="">
+         <a href="category.html?category=burger" class="cat">burger</a>
+         <div class="name">Bacon Burger</div>
+         <div class="flex">
+            <div class="price"><span>$</span>14.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <!-- Main Dishes -->
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="8">
+         <input type="hidden" name="name" value="Grilled Chicken">
+         <input type="hidden" name="price" value="18.99">
+         <input type="hidden" name="image" value="dish-1.png">
+         <a href="quick_view.html?pid=8" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/dish-1.png" alt="">
+         <a href="category.html?category=main dish" class="cat">main dish</a>
+         <div class="name">Grilled Chicken</div>
+         <div class="flex">
+            <div class="price"><span>$</span>18.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="9">
+         <input type="hidden" name="name" value="Pasta Carbonara">
+         <input type="hidden" name="price" value="16.99">
+         <input type="hidden" name="image" value="dish-2.png">
+         <a href="quick_view.html?pid=9" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/dish-2.png" alt="">
+         <a href="category.html?category=main dish" class="cat">main dish</a>
+         <div class="name">Pasta Carbonara</div>
+         <div class="flex">
+            <div class="price"><span>$</span>16.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="10">
+         <input type="hidden" name="name" value="Steak Dinner">
+         <input type="hidden" name="price" value="24.99">
+         <input type="hidden" name="image" value="dish-3.png">
+         <a href="quick_view.html?pid=10" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/dish-3.png" alt="">
+         <a href="category.html?category=main dish" class="cat">main dish</a>
+         <div class="name">Steak Dinner</div>
+         <div class="flex">
+            <div class="price"><span>$</span>24.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="11">
+         <input type="hidden" name="name" value="Fish and Chips">
+         <input type="hidden" name="price" value="15.99">
+         <input type="hidden" name="image" value="dish-4.png">
+         <a href="quick_view.html?pid=11" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/dish-4.png" alt="">
+         <a href="category.html?category=main dish" class="cat">main dish</a>
+         <div class="name">Fish and Chips</div>
+         <div class="flex">
+            <div class="price"><span>$</span>15.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <!-- Desserts -->
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="12">
+         <input type="hidden" name="name" value="Chocolate Cake">
+         <input type="hidden" name="price" value="8.99">
+         <input type="hidden" name="image" value="dessert-1.png">
+         <a href="quick_view.html?pid=12" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/dessert-1.png" alt="">
+         <a href="category.html?category=desserts" class="cat">desserts</a>
+         <div class="name">Chocolate Cake</div>
+         <div class="flex">
+            <div class="price"><span>$</span>8.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="13">
+         <input type="hidden" name="name" value="Ice Cream Sundae">
+         <input type="hidden" name="price" value="6.99">
+         <input type="hidden" name="image" value="dessert-2.png">
+         <a href="quick_view.html?pid=13" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/dessert-2.png" alt="">
+         <a href="category.html?category=desserts" class="cat">desserts</a>
+         <div class="name">Ice Cream Sundae</div>
+         <div class="flex">
+            <div class="price"><span>$</span>6.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="14">
+         <input type="hidden" name="name" value="Cheesecake">
+         <input type="hidden" name="price" value="7.99">
+         <input type="hidden" name="image" value="dessert-3.png">
+         <a href="quick_view.html?pid=14" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/dessert-3.png" alt="">
+         <a href="category.html?category=desserts" class="cat">desserts</a>
+         <div class="name">Cheesecake</div>
+         <div class="flex">
+            <div class="price"><span>$</span>7.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="15">
+         <input type="hidden" name="name" value="Tiramisu">
+         <input type="hidden" name="price" value="9.99">
+         <input type="hidden" name="image" value="dessert-4.png">
+         <a href="quick_view.html?pid=15" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/dessert-4.png" alt="">
+         <a href="category.html?category=desserts" class="cat">desserts</a>
+         <div class="name">Tiramisu</div>
+         <div class="flex">
+            <div class="price"><span>$</span>9.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="16">
+         <input type="hidden" name="name" value="Apple Pie">
+         <input type="hidden" name="price" value="8.99">
+         <input type="hidden" name="image" value="dessert-5.png">
+         <a href="quick_view.html?pid=16" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/dessert-5.png" alt="">
+         <a href="category.html?category=desserts" class="cat">desserts</a>
+         <div class="name">Apple Pie</div>
+         <div class="flex">
+            <div class="price"><span>$</span>8.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="17">
+         <input type="hidden" name="name" value="Brownie">
+         <input type="hidden" name="price" value="5.99">
+         <input type="hidden" name="image" value="dessert-6.png">
+         <a href="quick_view.html?pid=17" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/dessert-6.png" alt="">
+         <a href="category.html?category=desserts" class="cat">desserts</a>
+         <div class="name">Brownie</div>
+         <div class="flex">
+            <div class="price"><span>$</span>5.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <!-- Drinks -->
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="18">
+         <input type="hidden" name="name" value="Coca Cola">
+         <input type="hidden" name="price" value="2.99">
+         <input type="hidden" name="image" value="drink-1.png">
+         <a href="quick_view.html?pid=18" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/drink-1.png" alt="">
+         <a href="category.html?category=drinks" class="cat">drinks</a>
+         <div class="name">Coca Cola</div>
+         <div class="flex">
+            <div class="price"><span>$</span>2.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="19">
+         <input type="hidden" name="name" value="Orange Juice">
+         <input type="hidden" name="price" value="4.99">
+         <input type="hidden" name="image" value="drink-2.png">
+         <a href="quick_view.html?pid=19" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/drink-2.png" alt="">
+         <a href="category.html?category=drinks" class="cat">drinks</a>
+         <div class="name">Orange Juice</div>
+         <div class="flex">
+            <div class="price"><span>$</span>4.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="20">
+         <input type="hidden" name="name" value="Coffee">
+         <input type="hidden" name="price" value="3.99">
+         <input type="hidden" name="image" value="drink-3.png">
+         <a href="quick_view.html?pid=20" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/drink-3.png" alt="">
+         <a href="category.html?category=drinks" class="cat">drinks</a>
+         <div class="name">Coffee</div>
+         <div class="flex">
+            <div class="price"><span>$</span>3.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="21">
+         <input type="hidden" name="name" value="Iced Tea">
+         <input type="hidden" name="price" value="3.49">
+         <input type="hidden" name="image" value="drink-4.png">
+         <a href="quick_view.html?pid=21" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/drink-4.png" alt="">
+         <a href="category.html?category=drinks" class="cat">drinks</a>
+         <div class="name">Iced Tea</div>
+         <div class="flex">
+            <div class="price"><span>$</span>3.49</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+      <form action="" method="post" class="box">
+         <input type="hidden" name="pid" value="22">
+         <input type="hidden" name="name" value="Milkshake">
+         <input type="hidden" name="price" value="5.99">
+         <input type="hidden" name="image" value="drink-5.png">
+         <a href="quick_view.html?pid=22" class="fas fa-eye"></a>
+         <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+         <img src="project images/drink-5.png" alt="">
+         <a href="category.html?category=drinks" class="cat">drinks</a>
+         <div class="name">Milkshake</div>
+         <div class="flex">
+            <div class="price"><span>$</span>5.99</div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
+         </div>
+      </form>
+
+   </div>
+
+</section>
+
+<footer class="footer">
+
+   <section class="grid">
+
+      <div class="box">
+         <img src="images/email-icon.png" alt="">
+         <h3>our email</h3>
+         <a href="mailto:shaikhanas@gmail.com">shaikhanas@gmail.com</a>
+         <a href="mailto:anasbhai@gmail.com">anasbhai@gmail.com</a>
+      </div>
+
+      <div class="box">
+         <img src="images/clock-icon.png" alt="">
+         <h3>opening hours</h3>
+         <p>00:07am to 00:10pm</p>
+      </div>
+
+      <div class="box">
+         <img src="images/map-icon.png" alt="">
+         <h3>our address</h3>
+         <a href="#">mumbai, india - 400104</a>
+      </div>
+
+      <div class="box">
+         <img src="images/phone-icon.png" alt="">
+         <h3>our number</h3>
+         <a href="tel:1234567890">123-456-7890</a>
+         <a href="tel:1112223333">111-222-3333</a>
+      </div>
+
+   </section>
+
+   <div class="credit">&copy; copyright @ 2023 by <span>mr. web designer</span> | all rights reserved!</div>
+
+</footer>
+
+<div class="loader">
+   <img src="images/loader.gif" alt="">
+</div>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
